@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: rgb(50, 48, 48);
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(asset/bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  color: white;
+  margin-top: 0;
+  color: darkgoldenrod;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.2s linear;
+}
+.navbar {
+  margin-top: -40px;
+}
+.navbar .navbar-expand-lg .bg-dark {
+  background-color: rgba(1, 1, 1, 0.8) !important;
+}
+h1 {
+  margin-top: 40px;
+  text-shadow: 2px 2px 2px whitesmoke;
+}
+p {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px whitesmoke;
+}
+.about {
+  padding: 8rem 7% 1.4rem;
+}
+.about h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+.about h2 span {
+  color: goldenrod;
+}
+.about .row {
+  display: flex;
+}
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+.about .row .about-img img {
+  width: 500px;
+  height: 500px;
+}
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .row .content h3 span {
+  color: goldenrod;
+}
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 1.6;
+  margin-left: -60px;
+}
+.about .row .content p {
+  text-align: justify;
+}
+.about .row .content p span {
+  color: goldenrod;
+}
+.contact .lokasi {
+  text-align: center;
+  margin: 10px;
+}
+.contact .lokasi iframe {
+  margin: 15px;
+}
+/*Footer*/
+.footer {
+  margin-top: 150px;
+  border-width: 3px;
+}
+
+.footer-body {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background-color: goldenrod;
+}
+/*Akhir Footer*/
+/*laptop*/
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
