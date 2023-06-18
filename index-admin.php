@@ -17,25 +17,26 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="index-admin.css" />
-
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Alfa X</title>
   </head>
   <body>
+    <body>
+      
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid text-center">
       <div class="container">
-        <h1 class="display-4"><b>Alfa X</b></h1>
-        <hr />
-        <p>Unlock the Power of Alfa X!</p>
+       
       </div>
     </div>
     <!-- akhir jumbtron -->
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <a class="navbar-brand text-white" href="index-admin.html"
-          ><b>Alfa X</b></a
+        <a class="navbar-brand " href="index-admin.php"
+          ><span>Alfa</span>  <b>X</b></a
         >
         <button
           class="navbar-toggler"
@@ -49,13 +50,15 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="nambarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link mr-4" href="index-admin.html">HOME</a>
+              <a class="nav-link mr-4" href="index-admin.php">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-4" href="index-admin.html">DAFTAR MENU</a>
+              <a class="nav-link mr-4" href="daftarmenu-admin.php"
+                >DAFTAR MENU</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link mr-4" href="index-admin.html">PESANAN</a>
@@ -73,24 +76,18 @@
     <!-- akhir navbar -->
 
     <section id="about" class="about">
-      <h2><span>About </span>Me</h2>
+      <h2><span>About </span>Alfa X</h2>
       <div class="row">
         <div class="about-img">
           <img src="asset/about.jpg" alt="Tentang Kami" />
         </div>
         <div class="content">
-          <h3>Why Should <span>Fisixty ?</span></h3>
+          <h3>Unlock the Power of  <span>Alfa X!</span></h3>
           <p>
-            <span>Fisixty.id</span> keep their bars running smoothly by handling
-            day-to-day operations, managing resources, and employees, and
-            creating a safe, fun environment for staff and patrons. These
-            professionals may also be known as pub managers.
+            <span>Alfa X</span> is an innovative cafe that is designed with a modern and futuristic concept, creating an atmosphere that attracts and inspires the imagination. The cafe is strategically located in the city center, making it easily accessible to visitors.
           </p>
           <p>
-            In order to succeed as a bar manager, you should be observant and
-            have the ability to think critically and efficiently. You should be
-            a skilled communicator with excellent problem-solving, observation,
-            and interpersonal skills.
+            The menu offered at Alfa X is a blend of traditional flavors and creative culinary experiments. Diners can enjoy dishes such as specialty coffee with the finest beans imported from around the world, unique teas with refreshing flavors and aromas, and a wide selection of delicious desserts such as cafe-style cakes and pastries produced by talented chefs.
           </p>
         </div>
       </div>
@@ -100,7 +97,7 @@
     <!-- Contact section start -->
     <section class="contact">
       <div class="lokasi">
-        <h1>Lokasi</h1>
+        <h1>Location</h1>
         <p></p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.295003166383!2d112.7653667!3d-7.3207225000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbfe10249c1d%3A0xb6e6bba6cc74538b!2sAlfa%20X%20Tenggilis%20Mejoyo!5e0!3m2!1sid!2sid!4v1686984803956!5m2!1sid!2sid"
@@ -116,26 +113,11 @@
     <!-- contact section end -->
 
     <!-- Awal Footer -->
-    
-    <div class="container">
-      <div class="row footer-body">
-        <div class="col-md-6">
-        <div class="copyright">
-          <strong>Copyright</strong> <i class="far fa-copyright"></i> 2020 -  Designed by Alfirdaus&Rinaldo</p>
-        </div>
-        </div>
-
-        <div class="col-md-6 d-flex justify-content-end">
-        <div class="icon-contact">
-        <label class="font-weight-bold">Follow Us </label>
-        <a href="#"><img src="images/icon/fb.png" class="mr-3 ml-4" data-toggle="tooltip" title="Facebook"></a>
-        <a href="#"><img src="images/icon/ig.png" class="mr-3" data-toggle="tooltip" title="Instagram"></a>
-        <a href="#"><img src="images/icon/twitter.png" class="" data-toggle="tooltip" title="Twitter"></a>
-      </div>
-        </div>
-      </div>
+    <div class="footer">
+      <p>copyright @2023</p>
     </div>
-<!-- Akhir Footer -->
+    <!-- Akhir Footer -->
+    <!-- Akhir Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
